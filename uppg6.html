@@ -6,92 +6,106 @@
 </head>
 <body>
         <style>
-        
-        .divTable{
+        #container {
             display: table;
-            width: 100%;
-            
+            border: 1px solid gray; padding: 0px; margin: 0px;
+            border-spacing: 1px 1px;
+            background-color:  #cef6ce
         }
-
-        .divTableRow {
+      
+        #divTableRow {
             display: table-row;
             border-spacing: 5px;
             
         }
 
-        .divTableHeading {
-            background-color: #EEE;
-            display: table-header-group;
-            
-        }
-
-        .divTableCell{
-            border: 1px dashed #999999;
+       
+        #divTableCell{
+            border: 2px dashed #999999;
             display: table-cell;
             padding: 3px 10px;
            
         }
 
-        .divTableHead {
-        border: 1px dashed darkred;
+        #divTableHead {
+        border: 2px dashed darkred;
         display: table-cell;
         padding: 3px 10px;
+        height: 25px;
+        vertical-align: bottom;
+        text-align: center;
+        
         
         }
 
-        .divTableHeading {
+        #divTableHeading {
             background-color: rgb(221, 221, 148);
             display: table-header-group;
             font-weight: bold;
-           
-        }
-        
-        .divTableBody {
-            display: table-row-group;
-            background-color:  #cef6ce;
             
         }
+        
+        #divTableBody {
+            display: table-row-group;
+            background-color:  #cef6ce;
+        }
+        
         </style>
 
+        <div style="height: 20px; width: 425px; background-color: rgb(165, 255, 153)"></div>
+        <div style="vertical-align: bottom; font-size: 18px; font-weight: bold">Övning 6</div>
+        <p></p>
 
-        <div class="divTableHeading">
-                <div class="divTableRow">
-                <div class="divTableHead">Idrottare</div>
-                <div class="divTableHead">Resultat</div>
-                <div class="divTableHead">Placering</div>
-                <div class="divTableHead">Land</div>
-                </div>
-                </div>
+        
+        <figure style="position: fixed; left: -30px; top: 45px;">   
+        <figcaption style="position: relative; text-align: center">Kula, damer, OS 2016</figcaption>
 
-                <div class="divTableBody">
-                <div class="divTableRow">
-                <div class="divTableCell">Michelle Carter</div>
-                <div class="divTableCell" margin:>20,63</div>
-                <div class="divTableCell"; style="background-color: yellow"> 1</div>
-                <div class="divTableCell">USA</div>
+        <div id="container">
+        <div id="divTableHeading">
+                <div id="divTableRow">
+                <div id="divTableHead">Idrottare</div>
+                <div id="divTableHead">Resultat</div>
+                <div id="divTableHead">Placering</div>
+                <div id="divTableHead">Land</div>
                 </div>
-
-                <div class="divTableRow">
-                <div class="divTableCell">Valerie Adams</div>
-                <div class="divTableCell">20,42</div>
-                <div class="divTableCell"; style="background-color: rgb(206, 206, 206)">2</div>
-                <div class="divTableCell">Nya Zeeland</div>
                 </div>
 
-                <div class="divTableRow">
-                <div class="divTableCell">Anita Marton</div>
-                <div class="divTableCell">19,87</div>
-                <div class="divTableCell"; style="background-color: rgb(197, 151, 90)">3</div>
-                <div class="divTableCell">Ungern</div>
+                <div id="divTableBody">
+
+                <div id="divTableRow">
+                <div id="divTableCell">Michelle Carter</div>
+                <div id="divTableCell">20,63</div>
+                <div id="divTableCell"; style="text-align:center; background-color: gold">1</div>
+                <div id="divTableCell" style="text-align:right">USA</div>
                 </div>
 
-                <div class="divTableRow">
-                <div class="divTableCell">Gong Lijiao</div>
-                <div class="divTableCell">19,39</div>
-                <div class="divTableCell">4</div>
-                <div class="divTableCell">Kina</div>
+                <div id="divTableRow">
+                <div id="divTableCell">Valerie Adams</div>
+                <div id="divTableCell">20,42</div>
+                <div id="divTableCell"; style="text-align:center; background-color: silver">2</div>
+                <div id="divTableCell" style="text-align:right">Nya Zeeland</div>
                 </div>
+
+                <div id="divTableRow">
+                <div id="divTableCell">Anita Marton</div>
+                <div id="divTableCell">19,87</div>
+                <div id="divTableCell"; style="text-align:center; background-color: rgb(209, 131, 28)">3</div>
+                <div id="divTableCell" style="text-align:right">Ungern</div>
                 </div>
+
+                <div id="divTableRow">
+                <div id="divTableCell">Gong Lijiao</div>
+                <div id="divTableCell">19,39</div>
+                <div id="divTableCell" style="text-align:center">4</div>
+                <div id="divTableCell" style="text-align:right">Kina</div>
+
+                </div>
+
+        </div>
+
+        </div>
+
+    </figure>
 
 </body>
 <html>
