@@ -1,0 +1,23 @@
+body {
+    background-color: #8aafa8;
+    color: #FFFFFF;
+}
+
+   p {
+    background-color: rgb(255, 255, 255);
+    color: #333300;
+    text-align: right;
+    
+   }
+
+   div {
+    background-color: rgb(175, 175, 175);
+    color: #333300;
+    text-align: center;  
+    border: 2px dashed rgb(214, 195, 27);
+    padding: 3px 10px;
+    height: 25px;
+    width: 200px;
+    margin: 0 auto;
+    
+   }
