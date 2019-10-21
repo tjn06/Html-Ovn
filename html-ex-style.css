@@ -1,0 +1,82 @@
+body {
+    background: rgb(202, 202, 202);
+    width: 800px;
+    height: 1000px;
+    /*Website center*/
+    margin-left: auto;
+    margin-right: auto;
+
+    border-width: 2px;
+    border-style: dashed;
+    border-color:black;
+    text-align: left;
+    padding: 28px;
+    border-radius: 6px;
+}
+
+h3 {
+    color: rgb(61, 61, 61);
+    font-weight: 100;
+    font-family: arial;
+    font-size: 34;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+    line-height: 100%;
+    color: black;
+}
+
+a {
+    color: rgb(58, 116, 163);
+    font-family: helvetica;
+    
+}
+
+img {
+    float: right;
+}
+
+div.head {
+    background-color: rgb(192, 192, 192);
+    color: black;
+    text-align: left;
+    font-family: helvetica;
+    padding: 4px;
+    height: 30 px;
+    font-size: 20px;
+    border-radius: 6px;
+   
+    
+}
+
+div.leftlogo {
+    font-family: impact;
+    font-size: 30px;
+    color:rgb(83, 131, 131);
+    position: relative; left: 650px; top: -20px;
+    opacity: 0.8;
+    
+
+}
+
+.showme {
+    display: none;
+    
+    
+  }
+  
+  .showhim:hover .showme {
+    display: block;
+    background-color: rgb(147, 168, 175);
+    position: relative; width: 75%; left: -100px;
+    font-family: helvetica;
+    border-radius: 3px;
+    opacity: 0.6;
+    
+    
+        float:right;
+        
+
+  }
