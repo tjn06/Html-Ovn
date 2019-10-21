@@ -57,6 +57,13 @@ body {
     position: relative;
     font-family: Franklin Gothic;
   }
+    h1 span {
+    color: rgb(211, 248, 3);
+    font-size: 18px;
+    font-family: Franklin Gothic;
+    }
+
+
   
   /*effect-underline*/
   a.effect-underline:after {
@@ -101,4 +108,20 @@ body {
     
     font-family: Franklin Gothic;
    
+  }
+
+  .info {
+    position: absolute; top: 320px;
+   width: 700px;
+   height: 300px;
+   color:rgb(255, 255, 255);
+   background-color: rgba(141, 141, 141, 0.185);
+    font-size: 9px;
+    text-align: center;
+  font-family: Helvetica;
+  vertical-align: bottom;
+ 
+  border-radius: 40px;
+  display: flex;
+    justify-content: center;
   }
